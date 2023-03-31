@@ -1,0 +1,98 @@
+[
+  {
+    "link": "admin/references/categories",
+    "api": "/api/reference/areaCategory",
+    "expectedNumberOfItems": [
+      4,
+      5
+    ],
+    "aliasesForRequests": [
+      "postCategoryActive",
+      "postCategoryArchive"
+    ]
+  },
+  {
+    "link": "/admin/references/acquisition",
+    "api": "/api/reference/acquisitionOption",
+    "expectedNumberOfItems": [
+      2,
+      3
+    ],
+    "aliasesForRequests": [
+      "postAcquisiotionActive",
+      "postAcquisiotionArchive"
+    ]
+  },
+  {
+    "link": "/admin/references/engineer",
+    "api": "/api/reference/engineerOption",
+    "expectedNumberOfItems": [
+      5,
+      6
+    ],
+    "aliasesForRequests": [
+      "postAcquisitionActive",
+      "postAcquisitionArchive"
+    ]
+  },
+  {
+    "link": "/admin/references/ownership",
+    "api": "/api/reference/areaOwnership",
+    "expectedNumberOfItems": [
+      4,
+      5
+    ],
+    "aliasesForRequests": [
+      "postOwnershipActive",
+      "postOwnershipArchive"
+    ]
+  },
+  {
+    "link": "/admin/references/transport",
+    "api": "/api/reference/transportOption",
+    "expectedNumberOfItems": [
+      5,
+      6
+    ],
+    "aliasesForRequests": [
+      "postTransportActive",
+      "postTransportArchive"
+    ]
+  },
+  {
+    "link": "/admin/references/usage",
+    "api": "/api/reference/areaUsageOption",
+    "expectedNumberOfItems": [
+      3,
+      4
+    ],
+    "aliasesForRequests": [
+      "postUsageActive",
+      "postUsageArchive"
+    ]
+  },
+  {
+    "link": "/admin/references/usagekind",
+    "api": "/api/reference/areaUsageKind",
+    "expectedNumberOfItems": [
+      5,
+      6
+    ],
+    "aliasesForRequests": [
+      "postUsagekindActive",
+      "postUsagekindArchive"
+    ]
+  },
+  {
+    "link": "/admin/references/regions",
+    "api": "/api/reference/areaRegion",
+    "expectedNumberOfItems": [
+      20,
+      21
+    ],
+    "aliasesForRequests": [
+      "postRegionActive",
+      "postRegionArchive"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://192.168.1.147:8777/",
+  "ignoreTestFiles": "**/examples/*",
+  "retries": 9,
+  "env": {
+    "apiLoginAdmin": "api/auth/login",
+    "emailAdmin": "admin@admin.ru",
+    "passwordAdmin": "123123",
+    "authToken": ""
+  }
+}

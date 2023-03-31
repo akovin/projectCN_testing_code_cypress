@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:spec": "cypress run --spec",
+    "cy:run:chrome:headless": "cypress run --browser chrome --headless",
+    "cy:run:chrome:headless:spec": "cypress run --browser chrome --headless --spec"
+  },
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
+}
